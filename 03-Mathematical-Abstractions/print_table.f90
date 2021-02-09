@@ -14,7 +14,7 @@ program print_table
         x%v = 0.1 * i
         x%dv = 1.0
         y = f(x)
-        write(ufile,'(E10.4,A,E10.4,A,E10.4)') x%v,';',y%v,';', y%dv
+        write(ufile,'(E10.4,A,E10.4,A,E10.4)') x%v,',',y%v,',', y%dv
     enddo
     
     close(ufile)
