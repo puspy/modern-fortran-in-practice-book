@@ -10,7 +10,7 @@ program print_table
     
     open(newunit=ufile, file="result.csv", status='NEW')
     
-    do i=0,10
+    do i=0,500
         x%v = 0.1 * i
         x%dv = 1.0
         y = f(x)
