@@ -74,7 +74,7 @@ module automatic_differentiation
         real, intent(in)            :: n
         type(autoderiv), intent(in) :: x
         type(autoderiv)             :: z
-        z%v = x%v - n
+        z%v = n - x%v
         z%dv = x%dv
     end function
     
