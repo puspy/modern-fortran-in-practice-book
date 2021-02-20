@@ -46,7 +46,7 @@ module readline_utility
                 success = .true.
             endif
 
-            end subroutine
+        end subroutine
 
     end subroutine
 
